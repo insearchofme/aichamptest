@@ -1,0 +1,54 @@
+{
+ "metadata": {
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.3-final"
+  },
+  "orig_nbformat": 2,
+  "kernelspec": {
+   "name": "python_defaultSpec_1600606188207",
+   "display_name": "Python 3.8.3 64-bit ('base': conda)"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2,
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "[[ 4  9 16]\n [ 4  9 36]]\n"
+    }
+   ],
+   "source": [
+    "a=[[2,3,4],[2,3,6]]\n",
+    "b=[[2,3,4],[2,3,6]]\n",
+    "ans=np.multiply(a,b)\n",
+    "print(ans)\n"
+   ]
+  }
+ ]
+}
